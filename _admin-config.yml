@@ -1,0 +1,5 @@
+# hexo-admin 后台管理配置
+# 登录账号/密码在站点根目录 _config.yml 的 admin 段中配置
+options:
+  # 后台编辑器里粘贴/上传的图片会保存到相册目录，自动出现在 /photo 页面
+  imagePath: /img/gallery

@@ -1,0 +1,28 @@
+# 相册标题与分类配置（可选）
+# 相册会自动扫描 source/img/gallery/ 目录里的图片和视频，
+# caption 自定义显示标题，category 用于分类筛选；
+# 没有列出的文件会显示文件名，默认归入「未分类」。
+- file: 28fe8b60c8ed0b9308b975482f191dd7_0.jpg
+  caption: 光影 · 一
+  category: 风景
+- file: 35a6fa240b6082535550ac54799f2c1e_720.jpg
+  caption: 光影 · 二
+  category: 风景
+- file: 4d4dec1f562df084ff5e610d3ced2978_720.jpg
+  caption: 光影 · 三
+  category: 风景
+- file: 4efb0629a0110d9c80ff42dbcfbbda31_0.jpg
+  caption: 光影 · 四
+  category: 风景
+- file: 623938eca30df21d8539ae8799edb805_0.jpg
+  caption: 光影 · 五
+  category: 日常
+- file: 788e3b625046743171d4e8d4f77bd3e1_720.jpg
+  caption: 光影 · 六
+  category: 日常
+- file: c1cfd39f566cb9e71e957ade229542bd_720.jpg
+  caption: 光影 · 七
+  category: 日常
+- file: fc478c9f9083c64ffab548aa88970ea2_0.jpg
+  caption: 光影 · 八
+  category: 日常

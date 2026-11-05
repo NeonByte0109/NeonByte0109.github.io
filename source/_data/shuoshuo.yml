@@ -1,0 +1,19 @@
+# 说说数据（便利贴）
+# 格式：text 内容 / date 日期 / image 可选配图（放 source/img/ 下）/ color 便利贴颜色
+- text: 宿舍码字日常，电量充足，干劲也足⚡️
+  date: 2026-11-1
+  color: Teal
+- text: 博客终于上线啦，接下来会持续更新学习笔记和生活随想 🚀
+  date: 2026-10-31
+  color: yellow
+- text: 
+  date: 2026-10-31
+  image: /img/shoushou/gequ.jpg
+  color: blue
+- text: 深夜写代码时，一首好歌是最好的陪伴
+  date: 2026-10-30
+  color: pink
+- text: 坚持记录，让时间看得见
+  date: 2026-10-28
+  color: green
+  

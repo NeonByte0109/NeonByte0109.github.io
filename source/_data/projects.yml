@@ -1,0 +1,17 @@
+# 项目数据（/projects 页面）
+# name 项目名 / desc 描述 / tags 标签 / link 链接 / icon FontAwesome 图标类
+- name: 个人博客
+  desc: Hexo + Butterfly 打造的毛玻璃风格个人博客，支持相册、说说、归档、设计面板等
+  tags: [Hexo, CSS, JavaScript]
+  link: https://github.com/NeonByte0109
+  icon: fas fa-blog
+- name: 前端练习项目
+  desc: HTML / CSS / JavaScript 学习过程中的小作品合集
+  tags: [HTML, CSS, JavaScript]
+  link: https://github.com/NeonByte0109
+  icon: fas fa-code
+- name: Python 小工具
+  desc: 用 Python 写的一些日常效率脚本
+  tags: [Python]
+  link: https://github.com/NeonByte0109
+  icon: fab fa-python

@@ -1,0 +1,47 @@
+# 顶部横幅相关配置（一级！不要缩进！！）
+disable_top_img: false
+index_img: /img/banner.jpg
+index_top_img_height: 0px
+
+aside:
+  enable: true
+  position: right
+  card_author:
+    enable: true
+    description: "软件技术 | 编程学习记录"
+    button:
+      enable: true
+      icon: fab fa-github
+      text: Github
+      link: https://github.com/NeonByte0109
+
+avatar:
+  img: /img/qianzhu.jpg
+  effect: false
+
+# 顶部导航菜单
+menu:
+  主页: /home || fas fa-house
+  文章: /blog || fas fa-book-open
+  说说: /talk || fas fa-note-sticky
+  归档: /archive || fas fa-timeline
+  相册: /photo || fas fa-images
+  项目: /projects || fas fa-laptop-code
+  友链: /links || fas fa-link
+  音乐: /music || fas fa-music
+  关于我: /about || fas fa-user
+
+# 浅色默认（深色可在右下角设计面板切换）
+display_mode: light
+
+# 关闭主题自带的全屏加载白幕（欢迎页跳转后不再白屏）
+preloader:
+  enable: false
+
+# 网站图标
+favicon: /img/qianzhu.jpg
+
+# 图标库改用国内 CDN（默认 jsdelivr 在国内访问不稳定，会导致图标不显示）
+CDN:
+  option:
+    fontawesome: https://cdn.staticfile.net/font-awesome/6.5.2/css/all.min.css
