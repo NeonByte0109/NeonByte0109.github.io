@@ -25,7 +25,7 @@ aside: false
 - class_name: 友情链接
   class_desc: 与朋友交换链接，一起进步
   link_list:
-    - name: eardogのRef:rain
+    - name: "eardogのRef:rain"
       link: https://www.paeardog.top
       avatar: https://www.paeardog.top/eardog.png
       descr: 做一个淡淡的人.
