@@ -3,5 +3,5 @@
 - class_name: 友情链接
   class_desc: 与朋友交换链接，一起进步
   link_list:
-    - name: eardog@Ref:rain
+    - name: "eardog@Ref:rain"
       link: https://www.paeardog.top
