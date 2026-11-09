@@ -32,7 +32,7 @@ menu:
   关于我: /about || fas fa-user
 
 # 浅色默认（深色可在右下角设计面板切换）
-display_mode: light
+display_mode: dark
 
 # 关闭主题自带的全屏加载白幕（欢迎页跳转后不再白屏）
 preloader:

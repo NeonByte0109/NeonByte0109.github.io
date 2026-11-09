@@ -19,7 +19,7 @@
     }
   }
   function writeSettings(s) {
-    try { localStorage.setItem(SETTINGS_KEY, JSON.stringify(s)); } catch (e) {}
+    try { localStorage.setItem(SETTINGS_KEY, JSON.stringify(s)); } catch (e) { }
   }
 
   var settings = readSettings();
@@ -84,9 +84,9 @@
        主题自带脚本会读取它自己的 localStorage 状态覆盖 data-theme，
        这里在 DOM 就绪后重新应用，保证浅色默认生效 */
     if (!settings.theme) {
-      try { localStorage.removeItem('theme'); } catch (e) {}
+      try { localStorage.removeItem('theme'); } catch (e) { }
     }
-    applyTheme(settings.theme || 'light');
+    applyTheme(settings.theme || 'dark');
     if (settings.bg) {
       applyBg(settings.bg, settings.blur);
     } else {
@@ -174,7 +174,7 @@
         // 同步主题自身的状态存储，避免主题脚本下次加载时抢回旧状态
         try {
           localStorage.setItem('theme', JSON.stringify({ value: theme, expiry: Date.now() + 315360000000 }));
-        } catch (e) {}
+        } catch (e) { }
         if (settings.bg === 'gradient') {
           applyBg('gradient', settings.blur);
         } else {
@@ -245,7 +245,7 @@
     var searchDataEl = document.getElementById('plog-search-data');
     if (searchInput && searchDataEl) {
       var posts = [];
-      try { posts = JSON.parse(searchDataEl.textContent); } catch (e) {}
+      try { posts = JSON.parse(searchDataEl.textContent); } catch (e) { }
       var drop = document.createElement('div');
       drop.className = 'plog-search-drop';
       searchInput.parentNode.appendChild(drop);
@@ -548,7 +548,7 @@ window.PlogPlayer = function (opts) {
     var ratio = Math.max(0, Math.min(1, (e.clientX - r.left) / r.width));
     try {
       audio.currentTime = ratio * audio.duration;
-    } catch (err) {}
+    } catch (err) { }
   });
 
   load();
